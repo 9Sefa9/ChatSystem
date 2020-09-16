@@ -1,5 +1,7 @@
 language: java
-script: javac ChatServer.java
-	java ChatServer
-	javac ChatClient.java
-	java ChatClient
+jdk: oraclejdk8
+script: 
+- javac ChatServer.java
+- java ChatServer
+- javac ChatClient.java
+- java ChatClient
