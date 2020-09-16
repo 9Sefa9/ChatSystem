@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/9Sefa9/ChatSystem.svg?branch=master)](https://travis-ci.com/9Sefa9/ChatSystem)
 # ChatSystem
 An easy chat system written in Java to chat with clients through local or world wide network.
 
