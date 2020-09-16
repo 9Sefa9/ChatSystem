@@ -1,1 +1,5 @@
 language: java
+script: javac ChatServer.java
+	java ChatServer
+	javac ChatClient.java
+	java ChatClient
