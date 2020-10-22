@@ -7,11 +7,11 @@ public class ChatServer implements Runnable
    private Thread       thread = null;
    private int clientCount = 0;
 
-   public ChatServer(int port)
+   public ChatServer(int port, String host)
    {  try
       {  System.out.println("Binding to port " + port + ", please wait  ...");
          
-         InetAddress addr = InetAddress.getByName("127.0.0.1");
+         InetAddress addr = InetAddress.getByName(host);
          
          server = new ServerSocket(port ,50,addr);  
          System.out.println("Server started: " + server);
@@ -84,9 +84,9 @@ public class ChatServer implements Runnable
    }
    public static void main(String args[])
    {  ChatServer server = null;
-      if (args.length != 1)
-         System.out.println("Usage: java ChatServer port");
+      if (args.length != 2)
+         System.out.println("Usage: java ChatServer port host\n Server should register an open port and local IP! 192.168....\nClient can join that Server with the public IP of Server! 215.23.4...");
       else
-         server = new ChatServer(Integer.parseInt(args[0]));
+         server = new ChatServer(Integer.parseInt(args[0]), args[1]);
    }
 }
