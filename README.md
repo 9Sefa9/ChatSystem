@@ -4,7 +4,7 @@ An easy chat system written in Java to chat with clients through local or world 
 
 ### Installation
 
-Dillinger requires [Java](https://java.com/) 8+ to run.
+Requires [Java](https://java.com/) 8+ to run.
 
 First compile and then run the Server on custom port :
 
