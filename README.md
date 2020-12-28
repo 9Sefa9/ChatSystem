@@ -2,12 +2,6 @@
 # ChatSystem
 An easy chat system written in Java to chat with clients through local or world wide network.
 
-Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
-
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
-
 ### Installation
 
 Dillinger requires [Java](https://java.com/) 8+ to run.
@@ -28,14 +22,13 @@ $ java ChatClient [IP] [PORT]
 
 ### Development
 
-Development stopped years ago. 
+Development stopped years ago. The software works. No Test-cases added.
 
 ### Todos
 
  - Write Tests
  - Add an better Pattern
  - Develope GUI.
- - 
 License
 ----
 MIT
